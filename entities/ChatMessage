@@ -1,0 +1,41 @@
+{
+  "name": "ChatMessage",
+  "type": "object",
+  "properties": {
+    "sessionId": {
+      "type": "string",
+      "title": "Session ID"
+    },
+    "visitorName": {
+      "type": "string",
+      "title": "Visitor Name"
+    },
+    "visitorEmail": {
+      "type": "string",
+      "title": "Visitor Email"
+    },
+    "message": {
+      "type": "string",
+      "title": "Message"
+    },
+    "sender": {
+      "type": "string",
+      "enum": [
+        "visitor",
+        "admin",
+        "bot"
+      ],
+      "title": "Sender"
+    },
+    "isRead": {
+      "type": "boolean",
+      "title": "Is Read",
+      "default": false
+    }
+  },
+  "required": [
+    "sessionId",
+    "message",
+    "sender"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "name": "PortfolioSettings",
+  "type": "object",
+  "properties": {
+    "heroTitle": {
+      "type": "string",
+      "title": "Hero Title"
+    },
+    "heroItalicText": {
+      "type": "string",
+      "title": "Hero Italic Text"
+    },
+    "name": {
+      "type": "string",
+      "title": "Your Name"
+    },
+    "role": {
+      "type": "string",
+      "title": "Your Role"
+    },
+    "phone": {
+      "type": "string",
+      "title": "Phone"
+    },
+    "resumeLink": {
+      "type": "string",
+      "title": "Resume Link"
+    },
+    "facebookUrl": {
+      "type": "string",
+      "title": "Facebook URL"
+    },
+    "linkedinUrl": {
+      "type": "string",
+      "title": "LinkedIn URL"
+    },
+    "githubUrl": {
+      "type": "string",
+      "title": "GitHub URL"
+    },
+    "aboutHeadline": {
+      "type": "string",
+      "title": "About Headline"
+    },
+    "aboutTitle": {
+      "type": "string",
+      "title": "About Title"
+    },
+    "aboutSubtitle": {
+      "type": "string",
+      "title": "About Subtitle"
+    },
+    "aboutIntro": {
+      "type": "string",
+      "title": "About Intro Text"
+    },
+    "bio": {
+      "type": "string",
+      "title": "Bio Quote"
+    },
+    "birthday": {
+      "type": "string",
+      "title": "Birthday"
+    },
+    "website": {
+      "type": "string",
+      "title": "Website"
+    },
+    "city": {
+      "type": "string",
+      "title": "City"
+    },
+    "age": {
+      "type": "string",
+      "title": "Age"
+    },
+    "degree": {
+      "type": "string",
+      "title": "Degree"
+    },
+    "email": {
+      "type": "string",
+      "title": "Email"
+    },
+    "freelanceStatus": {
+      "type": "string",
+      "title": "Freelance Status"
+    }
+  },
+  "required": []
+}

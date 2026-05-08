@@ -1,0 +1,24 @@
+{
+  "name": "AdminSettings",
+  "type": "object",
+  "properties": {
+    "notificationEmail": {
+      "type": "string",
+      "title": "Notification Email"
+    },
+    "chatBotEnabled": {
+      "type": "boolean",
+      "title": "Chatbot Enabled",
+      "default": true
+    },
+    "chatWelcomeMessage": {
+      "type": "string",
+      "title": "Chat Welcome Message"
+    },
+    "resumeUrl": {
+      "type": "string",
+      "title": "Resume File URL"
+    }
+  },
+  "required": []
+}

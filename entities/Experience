@@ -1,0 +1,38 @@
+{
+  "name": "Experience",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Job Title"
+    },
+    "date": {
+      "type": "string",
+      "title": "Date Range"
+    },
+    "company": {
+      "type": "string",
+      "title": "Company"
+    },
+    "type": {
+      "type": "string",
+      "title": "Employment Type"
+    },
+    "mode": {
+      "type": "string",
+      "title": "Work Mode"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "order": {
+      "type": "number",
+      "title": "Display Order"
+    }
+  },
+  "required": [
+    "title",
+    "company"
+  ]
+}

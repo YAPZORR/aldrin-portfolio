@@ -1,0 +1,41 @@
+{
+  "name": "VisitorEvent",
+  "type": "object",
+  "properties": {
+    "sessionId": {
+      "type": "string",
+      "title": "Session ID"
+    },
+    "eventType": {
+      "type": "string",
+      "enum": [
+        "page_view",
+        "resume_click",
+        "social_click",
+        "project_view",
+        "chat_open"
+      ],
+      "title": "Event Type"
+    },
+    "meta": {
+      "type": "string",
+      "title": "Meta (e.g. social platform, project name)"
+    },
+    "userAgent": {
+      "type": "string",
+      "title": "User Agent"
+    },
+    "country": {
+      "type": "string",
+      "title": "Country"
+    },
+    "lastSeen": {
+      "type": "string",
+      "title": "Last Seen (ISO timestamp)"
+    }
+  },
+  "required": [
+    "sessionId",
+    "eventType"
+  ]
+}

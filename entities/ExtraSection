@@ -1,0 +1,33 @@
+{
+  "name": "ExtraSection",
+  "type": "object",
+  "properties": {
+    "template": {
+      "type": "string",
+      "title": "Template Type",
+      "enum": [
+        "skills",
+        "stats",
+        "services",
+        "testimonial",
+        "contact",
+        "timeline",
+        "tools",
+        "faq",
+        "cta",
+        "awards"
+      ]
+    },
+    "order": {
+      "type": "number",
+      "title": "Display Order"
+    },
+    "content": {
+      "type": "string",
+      "title": "Section Content (JSON)"
+    }
+  },
+  "required": [
+    "template"
+  ]
+}

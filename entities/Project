@@ -1,0 +1,110 @@
+{
+  "name": "Project",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Project Title"
+    },
+    "mainImage": {
+      "type": "string",
+      "title": "Main Image URL (supports GIF)"
+    },
+    "heroBackground": {
+      "type": "string",
+      "title": "Hero Background Color"
+    },
+    "description": {
+      "type": "string",
+      "title": "Short Description"
+    },
+    "tagline": {
+      "type": "string",
+      "title": "Tagline / Headline"
+    },
+    "audience": {
+      "type": "string",
+      "title": "Audience"
+    },
+    "challenges": {
+      "type": "string",
+      "title": "Challenges & Solutions"
+    },
+    "collaborativeIntro": {
+      "type": "string",
+      "title": "Collaborative Innovation - Intro Paragraph"
+    },
+    "collaborativeInAction": {
+      "type": "string",
+      "title": "Collaborative Innovation in Action"
+    },
+    "whatILearned": {
+      "type": "string",
+      "title": "What I Learned About the Project"
+    },
+    "whatIDid": {
+      "type": "string",
+      "title": "What I Did (JSON array of {title, description})"
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Services"
+    },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Deliverables"
+    },
+    "projectLink": {
+      "type": "string",
+      "title": "Project Link"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status"
+    },
+    "order": {
+      "type": "number",
+      "title": "Display Order"
+    },
+    "galleryImages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Gallery Images (URLs)"
+    },
+    "scrollableFrameEnabled": {
+      "type": "boolean",
+      "title": "Enable Scrollable Frame",
+      "default": false
+    },
+    "scrollableFrameImage": {
+      "type": "string",
+      "title": "Scrollable Frame Image URL (legacy single)"
+    },
+    "scrollableFrames": {
+      "type": "array",
+      "title": "Scrollable Frames (multiple)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "title"
+  ]
+}
